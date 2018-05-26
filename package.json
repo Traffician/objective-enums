@@ -1,6 +1,6 @@
 {
   "name": "objective-enums",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "Objective enums for JavaScript",
   "main": "src/index.js",
@@ -15,7 +15,7 @@
     "publish": "npm run prepareDist && npm publish dist --access public"
   },
   "author": "Oyvind Dev",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-plugin-transform-class-properties": "^6.24.1",

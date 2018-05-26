@@ -1,0 +1,32 @@
+{
+    "env": {
+        "development": {
+            "plugins": [
+                "transform-es2015-modules-commonjs",
+                "transform-class-properties",
+                "transform-decorators-legacy",
+                ["transform-private", {
+                    "pattern": "^_"
+                }]
+            ],
+            "sourceMaps": "inline",
+            "comments": true,
+            "minified": false,
+            "sourceRoot": "src/"
+        },
+        "production": {
+            "plugins": [
+                "transform-es2015-modules-commonjs",
+                "transform-class-properties",
+                "transform-decorators-legacy",
+                ["transform-private", {
+                    "pattern": "^_"
+                }]
+            ],
+            "sourceMaps": false,
+            "comments": true,
+            "minified": true,
+            "sourceRoot": "src/"
+        }
+    }
+}

@@ -58,6 +58,7 @@ class Enum {
                 continue;
             }
 
+            const value = values[name];
             let index = 0;
             Object.defineProperty(this, name, {
                 configurable: false,

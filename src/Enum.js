@@ -52,14 +52,13 @@ class Enum {
             }, {})
         }
 
-        const names = Object.keys(values);
+        let index = 0;
         for (let name in values) {
             if (!values.hasOwnProperty(name)) {
                 continue;
             }
 
             const value = values[name];
-            let index = 0;
             Object.defineProperty(this, name, {
                 configurable: false,
                 enumerable: true,

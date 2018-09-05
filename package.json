@@ -1,11 +1,8 @@
 {
   "name": "objective-enums",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "private": true,
   "description": "Objective enums for JavaScript",
-  "keywords": [
-    "enums", "objective", "javascript", "ecmascript", "enumerated", "types", "flags"
-  ],
   "main": "src/index.js",
   "repository": "github:Traffician/objective-enums",
   "scripts": {
@@ -30,5 +27,14 @@
     "babel-watch": "^2.0.7",
     "rimraf": "^2.6.2"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "keywords": [
+    "enums",
+    "objective",
+    "javascript",
+    "ecmascript",
+    "enumerated",
+    "types",
+    "flags"
+  ]
 }
